@@ -51,7 +51,7 @@ const hideModal = () => {
   };
 };
 
-export const actionCreator = {
+export const actionCreators = {
   addIssue,
   removeIssue,
   updateIssue,

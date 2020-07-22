@@ -1,10 +1,10 @@
 import React, { useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import TextField from '../../components/atoms/TextField';
-import TextArea from '../../components/atoms/TextArea';
-import Button from '../../components/atoms/Button';
-import LabelButton from '../../components/atoms/LabelButton';
+import TextField from '../atoms/TextField';
+import TextArea from '../atoms/TextArea';
+import Button from '../atoms/Button';
+import LabelButton from '../atoms/LabelButton';
 import { colors } from '../../styles/variable';
 
 const Container = styled.div`

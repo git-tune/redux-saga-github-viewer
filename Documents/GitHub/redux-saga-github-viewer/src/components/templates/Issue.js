@@ -5,8 +5,8 @@ import { colors } from '../../styles/variable';
 import Button from '../atoms/Button';
 import TextField from '../atoms/TextField';
 import IssueItem from '../organisms/IssueItem';
-import NewIssue from '../templates/NewIssue';
-import EditIssue from '../templates/EditIssue';
+import NewIssue from './NewIssue';
+import EditIssue from './EditIssue';
 
 const borderStyle = `1px solid ${colors.border}`;
 
