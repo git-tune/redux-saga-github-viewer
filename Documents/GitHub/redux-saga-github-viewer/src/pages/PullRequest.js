@@ -1,10 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
+import PullRequest from '../components/templates/PullRequest';
 
-const Container = styled.div``;
+const Container = styled.div`
+  padding: 16px;
+  h1 {
+    text-align: center;
+  }
+`;
 
-const PullRequest = () => {
-  return <Container>PullRequest</Container>;
+const Profile = () => {
+  return (
+    <Container>
+      <PullRequest />
+    </Container>
+  );
 };
 
-export default PullRequest;
+export default Profile;

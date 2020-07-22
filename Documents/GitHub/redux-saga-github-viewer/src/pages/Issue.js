@@ -1,10 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import Issue from '../containers/Issue';
 
-const Container = styled.div``;
+const Container = styled.div`
+  padding: 16px;
+`;
 
-const Issue = () => {
-  return <Container>issue</Container>;
+const Profile = () => {
+  return (
+    <Container>
+      <Issue />
+    </Container>
+  );
 };
 
-export default Issue;
+export default Profile;
