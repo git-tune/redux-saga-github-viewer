@@ -1,14 +1,23 @@
-// action type
+// action type //
 
+// issue
 export const ISSUE_ADD = 'ISSUE_ADD';
 export const ISSUE_REMOVE = 'ISSUE_REMOVE';
 export const ISSUE_UPDATE = 'ISSUE_UPDATE';
+
+// modal
 export const MODAL_PUSH = 'MODAL_PUSH';
 export const MODAL_POP = 'MODAL_POP';
 export const MODAL_HIDE = 'MODAL_HIDE';
 
-// action creators
+// user
+export const USER_FETCH_REQUESTED = 'USER_FETCH_REQUESTED';
+export const USER_FETCH_SUCCEEDED = 'USER_FETCH_SUCCEEDED';
+export const USER_FETCH_FAILED = 'USER_FETCH_FAILED';
 
+// action creators //
+
+// issue
 const addIssue = ({ issue }) => {
   return {
     type: ISSUE_ADD,
@@ -30,6 +39,7 @@ const updateIssue = ({ issue }) => {
   };
 };
 
+// modal
 const showModal = ({ component }) => {
   return {
     type: MODAL_PUSH,
@@ -51,6 +61,13 @@ const hideModal = () => {
   };
 };
 
+// user
+const userFetchRequested = () => {
+  return {
+    type: USER_FETCH_REQUESTED,
+  };
+};
+
 export const actionCreators = {
   addIssue,
   removeIssue,
@@ -58,4 +75,5 @@ export const actionCreators = {
   showModal,
   removeModal,
   hideModal,
+  userFetchRequested,
 };
