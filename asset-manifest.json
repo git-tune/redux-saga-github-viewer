@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/redux-saga-github-viewer/static/js/main.d018fdb5.chunk.js",
-    "main.js.map": "/redux-saga-github-viewer/static/js/main.d018fdb5.chunk.js.map",
+    "main.js": "/redux-saga-github-viewer/static/js/main.57a12a8c.chunk.js",
+    "main.js.map": "/redux-saga-github-viewer/static/js/main.57a12a8c.chunk.js.map",
     "runtime-main.js": "/redux-saga-github-viewer/static/js/runtime-main.8038e559.js",
     "runtime-main.js.map": "/redux-saga-github-viewer/static/js/runtime-main.8038e559.js.map",
     "static/js/2.1eb540a9.chunk.js": "/redux-saga-github-viewer/static/js/2.1eb540a9.chunk.js",
     "static/js/2.1eb540a9.chunk.js.map": "/redux-saga-github-viewer/static/js/2.1eb540a9.chunk.js.map",
     "index.html": "/redux-saga-github-viewer/index.html",
-    "precache-manifest.d51331a6828d53827a015d320743e04d.js": "/redux-saga-github-viewer/precache-manifest.d51331a6828d53827a015d320743e04d.js",
+    "precache-manifest.8dfe78cfe8804e4af870edfaed27e4f8.js": "/redux-saga-github-viewer/precache-manifest.8dfe78cfe8804e4af870edfaed27e4f8.js",
     "service-worker.js": "/redux-saga-github-viewer/service-worker.js",
     "static/js/2.1eb540a9.chunk.js.LICENSE.txt": "/redux-saga-github-viewer/static/js/2.1eb540a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8038e559.js",
     "static/js/2.1eb540a9.chunk.js",
-    "static/js/main.d018fdb5.chunk.js"
+    "static/js/main.57a12a8c.chunk.js"
   ]
 }
