@@ -1,4 +1,4 @@
-import { call, put, take } from 'redux-saga/effects';
+import { call, put, takeLatest } from 'redux-saga/effects';
 import * as api from '../apis';
 import * as ActionType from '../actions';
 
@@ -19,7 +19,7 @@ function* fetchUser() {
 }
 
 function* userSaga() {
-  yield take(ActionType.USER_FETCH_REQUESTED, fetchUser);
+  yield takeLatest(ActionType.USER_FETCH_REQUESTED, fetchUser);
 }
 
 export default userSaga;
