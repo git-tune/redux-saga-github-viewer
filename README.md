@@ -4,6 +4,7 @@ Github REST API V3 を使用して、リポジトリのissueのCRUDが行える�
 https://git-tune.github.io/redux-saga-github-viewer/
 
 # 説明
+* Functional Component中心のReact開発
 * Reduxでの状態管理  
 * Atomicデザインでのコンポーネント設計  
 * styled-componentを用いたスタイリング手法(レスポンシブ対応)  
