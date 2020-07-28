@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import { devToolsEnhancer } from 'redux-devtools-extension';
+import { createStore, applyMiddleware } from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import saga from './sagas';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import reducer from './reducers';
 import App from './App';
 
-const store = createStore(reducer, devToolsEnhancer());
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(
+  reducer,
+  composeWithDevTools(applyMiddleware(sagaMiddleware))
+);
+
+sagaMiddleware.run(saga);
 
 ReactDOM.render(
   <React.StrictMode>
