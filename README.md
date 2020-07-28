@@ -1,6 +1,7 @@
 # 概要
 React + ReduxでGithub ViewerをSPAとして実装。  
-Github REST API V3 を使用して、リポジトリのissueのCRUDが行える。
+Github REST API V3 を使用して、リポジトリのissueのCRUDが行える。  
+https://git-tune.github.io/redux-saga-github-viewer/
 
 # 説明
 * Reduxでの状態管理  
