@@ -15,7 +15,7 @@ https://git-tune.github.io/redux-saga-github-viewer/
 * モーダルの実装  
 * メニューの実装  
 
-# 補足
+# 参考
 EslintとPrettierについて  
 * [ESLintとPrettierを導入する](https://qiita.com/kobayashi-m42/items/ea2588686a477d083926)  
 
